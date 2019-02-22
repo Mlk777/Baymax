@@ -1,5 +1,5 @@
 body {
-  background-color: #ca0b01;
+  background-color: #ab9493a3;
   overflow: hidden;
   height: 100vh;
 }
@@ -264,21 +264,22 @@ body {
   position: relative;
   top: 34%;
   margin: auto;
-  right: 45%;
+  right: 49%;
   height: 80px;
   width: 20px;
   background: #e7e7e7a8;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
   z-index: 1;
-  clip-path: ellipse(65% 75% at 5% 25%);
+  transform: rotateY(180deg);
+  clip-path: ellipse(65% 75% at 5% 55%);
 }
 
 #right-arm-patch {
   position: relative;
   top: 34%;
   margin: auto;
-  left: 47%;
+  left: 49%;
   height: 80px;
   width: 20px;
   background: #e7e7e7a8;
@@ -291,7 +292,7 @@ body {
 #left-leg-patch {
   position: relative;
   top: 23%;
-  right: 36%;
+  right: 46%;
   margin: auto;
   height: 70px;
   width: 30px;
@@ -299,7 +300,8 @@ body {
   border: 1px solid #eaeaea;
   background: #e7e7e7;
   z-index: 1;
-  transform: rotate(8deg);
+  transform: rotate(7deg) rotateY(180deg);
+  clip-path: ellipse(90% 100% at -18% 37%);
 }
 
 #right-leg-patch {
